@@ -1,0 +1,38 @@
+CREATE DATABASE MailingList
+GO
+USE MailingList
+GO
+-- Create Tables
+CREATE TABLE Country (
+    Id INT PRIMARY KEY IDENTITY,
+    Name NVARCHAR(100) NOT NULL
+);
+
+CREATE TABLE City (
+    Id INT PRIMARY KEY IDENTITY,
+    Name NVARCHAR(100) NOT NULL,
+    CountryId INT NOT NULL,
+    FOREIGN KEY (CountryId) REFERENCES Country(Id)
+);
+
+CREATE TABLE Section (
+    Id INT PRIMARY KEY IDENTITY,
+    Name NVARCHAR(100) NOT NULL
+);
+
+CREATE TABLE Product (
+    Id INT PRIMARY KEY IDENTITY,
+    Name NVARCHAR(100) NOT NULL,
+    IsPromotional BIT NOT NULL,
+    SectionId INT NOT NULL,
+    FOREIGN KEY (SectionId) REFERENCES Section(Id)
+);
+
+CREATE TABLE Customer (
+    Id INT PRIMARY KEY IDENTITY,
+    Name NVARCHAR(100) NOT NULL,
+    Surname NVARCHAR(100) NOT NULL,
+    Email NVARCHAR(100) NOT NULL,
+    SectionId INT NOT NULL,
+    FOREIGN KEY (SectionId) REFERENCES Section(Id)
+);
