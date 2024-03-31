@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "qaxOT6VB79IGHuwZUJlLlazrMAlYcQNpZCwNcCDZ4GBeEcf57aO2j/s9hQ+dQ7s6nd7xEm5WpstQWp9WISYVqQ==",
+  "dgSpecHash": "WgH+zizy6x5Unp5pw4Wpraa/gvQWkDXpKzOCI2uhYwaNEn/joG+CvGUoVNG4bszfpnrp1FSLJLNFeyF6bM9JbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikit\\Desktop\\ADO.NET\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\nikit\\Desktop\\Programming\\ADO.NET\\CoffeeShop\\CoffeeShop\\CoffeeShop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\system.data.sqlclient\\4.8.6\\system.data.sqlclient.4.8.6.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\nikit\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
